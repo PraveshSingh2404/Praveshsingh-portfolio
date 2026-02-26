@@ -1,0 +1,16 @@
+@import "tailwindcss";
+body {
+  /* 1. Set the deep dark background color */
+  background-color: #121212; 
+  
+  /* 2. Create the tiny dot using a radial gradient */
+  background-image: radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+  
+  /* 3. Define the spacing between the dots (e.g., a dot every 40px) */
+  background-size: 40px 40px; 
+  
+  /* Make sure it covers the whole screen */
+  min-height: 100vh;
+  margin: 0;
+  color: white;
+}
